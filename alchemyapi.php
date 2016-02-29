@@ -33,13 +33,13 @@ class AlchemyAPI {
 
 		if (null === $key) {
  				//Load the API Key from api_key.txt
- 				$key = trim(file_get_contents("/key/api_key.txt"));
+ 				$key = trim(file_get_contents("key/api_key.txt"));
 
 				if (!$key) {
   				//Keys should not be blank
   				echo 'The api_key.txt file appears to be blank, please copy/paste your API key in the file: api_key.txt', PHP_EOL;
   				echo 'If you do not have an API Key from AlchemyAPI, please register for one at: http://www.alchemyapi.com/api/register.html', PHP_EOL;
-  				file_put_contents('../key/api_key.txt','');
+  				file_put_contents('key/api_key.txt','');
     			exit(1);
   			}
 
