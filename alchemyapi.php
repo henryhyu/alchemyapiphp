@@ -33,7 +33,7 @@ class AlchemyAPI {
 
 		if (null === $key) {
  				//Load the API Key from api_key.txt
- 				$key = trim(file_get_contents("../key/api_key.txt"));
+ 				$key = trim(file_get_contents("/key/api_key.txt"));
 
 				if (!$key) {
   				//Keys should not be blank
