@@ -43,6 +43,7 @@ function printResponse($response) {
         if ($fcount > 0) {
             //header('Content-type: image/png text');
             //echo file_get_contents($_POST['imageurl']);
+            echo "<img src='".$_POST['imageurl']."' alt=\"Smiley face\" width=\"250\">";
             echo "Let me say ...";
             echo ("</br>");
             $fitem = $response['imageFaces'][0];
