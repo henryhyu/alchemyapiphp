@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # alchemyapi_php #
 
 A software development kit (sdk) for AlchemyAPI using PHP
@@ -634,3 +635,6 @@ This should print out:
 
 
 
+=======
+# alchemyapiphp
+>>>>>>> 8c63c7f830767cfd8b960ecc10cce981fac2b5ee
